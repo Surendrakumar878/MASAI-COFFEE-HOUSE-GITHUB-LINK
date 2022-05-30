@@ -1,0 +1,23 @@
+#menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#menu>div {
+    width: 60%;
+}
+
+#menu>div>img {
+    width: 100%;
+}
+
+#navbar {
+    justify-content: right;
+    display: flex;
+    margin: auto;
+    padding: 20px;
+}
+
+#navbar>div {
+    margin-left: 20px;
+}

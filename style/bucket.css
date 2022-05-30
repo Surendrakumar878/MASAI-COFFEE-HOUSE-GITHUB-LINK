@@ -1,0 +1,12 @@
+#bucket {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#bucket>div {
+    width: 60%;
+}
+
+#bucket>div>img {
+    width: 100%;
+}
